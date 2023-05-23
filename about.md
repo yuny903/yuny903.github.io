@@ -21,6 +21,6 @@ I went to the army and now I am in the second grade.
 # Skills
 
 ![java](https://github.com/rohitjain00/dev-portfolio-blog/assets/127374958/996655de-ce0c-4bee-b7b5-af6951fafa9c)
-<img width="100" alt="C" src="https://github.com/rohitjain00/dev-portfolio-blog/assets/127374958/21a596f9-6116-4e19-b4c3-5f265d11641b">
+<img width="200" alt="C" src="https://github.com/rohitjain00/dev-portfolio-blog/assets/127374958/21a596f9-6116-4e19-b4c3-5f265d11641b">
 
 The languages I have are C language and Java, and I am learning various other languages such as Linux commands and Bash through open source classes this semester.
