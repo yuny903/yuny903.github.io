@@ -16,7 +16,9 @@ I entered **Sungkyunkwan University** in 2020.
 
 I went to the army and now I am in the second grade.
 
-
+<br>
+<br>
+<br>
 
 # Skills
 
@@ -26,7 +28,9 @@ I went to the army and now I am in the second grade.
 The languages I have are **C language and Java**, and I am learning various other languages such as **Linux commands and Bash** through open source classes this semester.
 It is still the first semester of the second grade, so I lack knowledge and experience in my major, but I want to build up a lot of experience and knowledge by working hard in school life in the future.
 
-
+<br>
+<br>
+<br>
 
 # Education
 
@@ -37,3 +41,11 @@ It is still the first semester of the second grade, so I lack knowledge and expe
 
 ### Liberal arts subjects
 > 영어쓰기, 일반화학1, 미분적분학1, 창의적융합디자인, 확률및통계, 선형대수학, 고전명저북클럽
+
+<br>
+<br>
+<br>
+
+# Achievements and Certifications
+
+
