@@ -1,7 +1,7 @@
 ---
 layout: blog
 permalink: /blog/
-title: Rohit Jain | Blog
+title: Seyun Jeong | Connection
 pagination:
   enabled: true
 ---
