@@ -1,12 +1,12 @@
 ---
 layout: description
-title: Introduction
-permalink: /Introduction/
+title: About
+permalink: /about/
 ---
 
 # Introduction
 
-![myPhoto](https://github.com/yuny903/yuny903.github.io/blob/master/Photo.png)
+![Photo](https://github.com/yuny903/yuny903.github.io/blob/master/Photo.png)
 
 Hello, my name is Jeong Seyoon.
 
