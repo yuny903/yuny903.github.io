@@ -1,25 +1,46 @@
+#workflow의 이름을 제공
 name: Build and deploy this site to GitHub Pages
-
+# 이벤트 설정을 한다
 on:
+  # push가 발생할 경우 workflow가 실행
   push:
+    # master branch에서 push 이벤트가 발생할 때 workflow가 실행
     branches:
       - master 
-
+# workflow에서 수행되는 작업의 그룹화한 단위
 jobs:
+  # workflow 파일에서 정의된 작업(job)의 이름
   github-pages:
+    # 최신 Ubuntu 버전에서 실행되는 github-pages라는 작업
     runs-on: ubuntu-latest
+    # github-pages라는 job에서 개별 작업 단계를 정의하는 섹션
     steps:
+      # actions/checkout 작업을 사용해서 (버전 3)
+      # 현재 workflow가 실행되는 repository의 코드를 workflow 실행 환경으로 복제
       - uses: actions/checkout@v3
+      # actions/cache 작업을 사용하여 일반적으로 설치된 종속성을 포함하는 vendor/bundle 디렉터리를 캐시
       - uses: actions/cache@v3
+        # 액션에 대한 추가적인 옵션 또는 매개변수를 지정하는 데 사용되는 키워드
         with:
+          # 캐시할 디렉토리 경로를 지정
           path: vendor/bundle
+          # 캐시를 식별하는 고유 키를 지정
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          # 캐시를 복원할 때 사용할 키의 목록을 지정
           restore-keys: |
             ${{ runner.os }}-gems-
+      # Jekyll 사이트를 빌드하고 배포하기 위해서
+      # jeffreytse/jekyll-deploy-action repository의 버전 v0.4.0을 사용하여 액션을 실행
       - uses: jeffreytse/jekyll-deploy-action@v0.4.0
+        # 액션에 대한 추가적인 옵션 또는 매개변수를 지정하는 데 사용되는 키워드
         with:
+          # Jekyll 사이트를 배포할 대상으로 GitHub Pages를 사용
           provider: 'github'
+          # 비밀변수인 GITHUB_TOKEN을 사용하여 인증
           token: ${{ secrets.GITHUB_TOKEN }}
+          # Jekyll 사이트의 베이스 URL을 지정
           jekyll_baseurl: 'dev-portfolio-blog'
+          # 사전 빌드 단계에서 수행할 명령어를 지정
           pre_build_commands: pacman -S --noconfirm nodejs npm
+          # 배포할 브랜치를 지정
           branch: 'sample-site'
