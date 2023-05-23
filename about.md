@@ -55,6 +55,7 @@ It is still the first semester of the second grade, so I lack knowledge and expe
 
 # Contact 
 > [![Gmail](https://github.com/rohitjain00/dev-portfolio-blog/assets/127374958/ad814160-44f5-4e53-b79f-0f9c36c00420)](mailto:yuny903@gmail.com)
+> 
 > [![Github](https://github.com/rohitjain00/dev-portfolio-blog/assets/127374958/76ab3eb8-ff59-45fe-94d0-7a6c9f9c10fa)](https://github.com/yuny903)
 
 
