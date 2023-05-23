@@ -49,6 +49,7 @@ It is still the first semester of the second grade, so I lack knowledge and expe
 # Achievements and Certifications
 
 > 2020학년도 수능 수학 100점과 당시 수시 논술 4관왕
+> 
 > 군대에 있을 당시 족구대회 우승
 
 Except for the above case, I don't think I have any significant achievements or certification.
