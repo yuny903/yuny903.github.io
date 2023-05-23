@@ -1,5 +1,5 @@
 ---
 layout: home
-home_text: Hello, I am Seyun Jeong!
+home_text: I'm SKKU student!
 title: Seyun Jeong
 ---
