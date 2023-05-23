@@ -6,7 +6,7 @@ permalink: /about/
 
 # Introduction
 
-![Photo](https://github.com/rohitjain00/dev-portfolio-blog/assets/127374958/8f00c5bf-21e1-4fa8-a1d7-af746cba68ec)
+![Photo](https://github.com/rohitjain00/dev-portfolio-blog/assets/127374958/baf8ec1e-3fae-4dae-991d-e4941789538e)
 
 Hello, my name is Jeong Seyoon.
 
